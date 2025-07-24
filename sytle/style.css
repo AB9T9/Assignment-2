@@ -104,11 +104,12 @@ ul li a {
   gap: 20px;
 }
 .card-item {
-  max-width: 270px;
+  /* max-width: 270px; */
   margin-top: 50px;
 }
 .card-item > img {
   margin-bottom: 20px;
+  width: 100%;
 }
 .plants-name,
 .plants-price {
@@ -311,6 +312,10 @@ form input[type="submit"] {
   margin-left: 25px;
 }
 @media screen and (max-width: 576px) {
+  body {
+    margin: 10px;
+  }
+
   .nav li a:nth-child(1),
   .nav li a:nth-child(2),
   .nav li a:nth-child(3) {
@@ -324,5 +329,37 @@ form input[type="submit"] {
   }
   .banner-left-content {
     order: 2;
+  }
+  /* plants card  */
+  .plants-card {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .plants-lover {
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 15px;
+  }
+  .plants-lover-left-content .badge {
+    display: none;
+  }
+  .plants-describtion-list {
+    padding-left: 20px;
+  }
+  /* latest deal responsive */
+  .latest-deal {
+    margin-top: 100px;
+  }
+  .deal-container {
+    flex-direction: column;
+  }
+  .deal-left-content {
+    width: 100%;
+  }
+  .deal-right-content {
+    width: 100%;
+  }
+  .deal-left-content img {
+    width: 100%;
   }
 }
