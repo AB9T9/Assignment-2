@@ -258,7 +258,6 @@ ul li a {
   margin: 0 auto;
   width: 100%;
   margin-top: 120px;
-  background-color: aqua;
   padding: 250px 150px 150px 150px;
   background-image: url("../assets/news-letter-bg.png");
   background-size: cover;
@@ -352,14 +351,56 @@ form input[type="submit"] {
   }
   .deal-container {
     flex-direction: column;
+    height: auto;
+    margin-bottom: 60px;
+  }
+  .shadow {
+    height: 98%;
   }
   .deal-left-content {
     width: 100%;
+    gap: 20px;
   }
   .deal-right-content {
     width: 100%;
+    margin-top: 20px;
   }
   .deal-left-content img {
     width: 100%;
+  }
+  .deal-right-content .discount-left-content,
+  .user-join {
+    font-size: 2rem;
+  }
+
+  /* user input section responsive */
+  .user-input {
+    margin-top: 40px;
+    padding: 80px 20px 50px 20px;
+  }
+  /* footer itmes responsive */
+  .footer-container {
+    flex-direction: column;
+  }
+  .footer-describtion {
+    text-align: center;
+  }
+  .footer-left-content {
+    margin-bottom: 30px;
+  }
+  .footer-left-content .footer-logo {
+    position: relative;
+    margin-left: 35%;
+  }
+  .footer-right-content {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .footer-right-content img {
+    margin: 20px 20px 10px 0px;
+  }
+  .footer-list {
+    margin-top: 20px;
+    justify-items: center;
   }
 }
