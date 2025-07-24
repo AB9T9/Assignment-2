@@ -34,7 +34,7 @@ navigation flex */
   align-items: center;
   margin-top: 20px;
 }
-ul {
+.ul {
   display: flex;
   align-items: center;
   gap: 40px;
@@ -43,7 +43,7 @@ ul li a {
   text-decoration: none;
   color: black;
 }
-ul li {
+.ul li {
   list-style: none;
 }
 #cart {
@@ -117,5 +117,40 @@ ul li {
   color: white;
   padding: 10px 20px;
   margin-top: 20px;
+  width: 100%;
+}
+/* flower and planst lover  */
+.plants-lover {
+  display: flex;
+  margin-top: 210px;
+  margin-bottom: 130px;
+  align-items: center;
+  justify-content: space-between;
+}
+.plants-describtion-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  gap: 30px;
+}
+
+.plants-list-item {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.3rem;
+}
+.flower-plants-title {
+  margin-bottom: 16px;
+  font-size: 3.1rem;
+}
+.plants-lover-left-content {
+  position: relative;
+}
+.badge {
+  position: absolute;
+  width: 60%;
+  left: 320px;
+  top: -160px;
+}
+.plants-lover-left-content .main-image {
   width: 100%;
 }
