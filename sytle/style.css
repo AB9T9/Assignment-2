@@ -71,6 +71,7 @@ ul li a {
 .banner-right-content img {
   height: 100%;
   width: 100%;
+  order: 2;
 }
 .banner-title {
   font-size: 4rem;
@@ -79,6 +80,7 @@ ul li a {
   color: #e95a08;
 }
 .banner-title-describtion {
+  order: 1;
   font-size: 1.3rem;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -307,4 +309,20 @@ form input[type="submit"] {
 
 .footer-right-content > img {
   margin-left: 25px;
+}
+@media screen and (max-width: 576px) {
+  .nav li a:nth-child(1),
+  .nav li a:nth-child(2),
+  .nav li a:nth-child(3) {
+    display: none;
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .banner-right-content {
+    order: 1;
+  }
+  .banner-left-content {
+    order: 2;
+  }
 }
