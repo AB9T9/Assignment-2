@@ -3,6 +3,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #f5f8ff;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 .noto-serif-normal {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -54,7 +63,7 @@ i {
   margin-top: 120px;
 }
 .banner-left-content {
-  padding-top: 140px;
+  padding-top: 135px;
 }
 .banner-right-content > img {
   display: block;
@@ -68,4 +77,42 @@ i {
 .banner-title-describtion {
   font-size: 1.3rem;
   color: rgba(0, 0, 0, 0.5);
+}
+/* our plants section */
+.our-plants {
+  margin-top: 160px;
+}
+.plants-title {
+  font-size: 3.1rem;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.plants-describtion {
+  text-align: center;
+}
+.plants-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.card-item {
+  max-width: 270px;
+  margin-top: 50px;
+}
+.card-item > img {
+  margin-bottom: 20px;
+}
+.plants-name,
+.plants-price {
+  text-align: center;
+}
+.plants-price {
+  margin-top: 10px;
+}
+.plants-add {
+  border: none;
+  background-color: #e95a08;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  width: 100%;
 }
