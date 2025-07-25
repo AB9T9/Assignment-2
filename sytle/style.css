@@ -107,6 +107,7 @@ ul li a {
   /* max-width: 270px; */
   margin-top: 50px;
 }
+
 .card-item > img {
   margin-bottom: 20px;
   width: 100%;
@@ -160,6 +161,8 @@ ul li a {
   width: 60%;
   left: 320px;
   top: -160px;
+  animation: round 3s ease-in forwards;
+  animation-delay: 2s;
 }
 .plants-lover-left-content .main-image {
   width: 100%;
@@ -392,26 +395,34 @@ form input[type="submit"] {
   .footer-container {
     flex-direction: column;
   }
-  .footer-describtion {
-    text-align: center;
-  }
+
   .footer-left-content {
     margin-bottom: 30px;
   }
-  .footer-left-content .footer-logo {
-    position: relative;
-    margin-left: 35%;
-  }
+
   .footer-right-content {
     margin-top: 20px;
-    text-align: center;
   }
   .footer-right-content img {
     margin: 20px 20px 10px 0px;
   }
   .footer-list {
     margin-top: 20px;
-    justify-items: center;
-    text-align: left;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* animation part */
+@keyframes round {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: scale(1.2) rotate(360deg);
+  }
+  100% {
+    transform: scale(1);
   }
 }
