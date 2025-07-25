@@ -333,6 +333,7 @@ form input[type="submit"] {
     order: 1;
   }
   .banner-left-content {
+    width:100%;
     order: 2;
   }
   /* plants card  */
