@@ -312,10 +312,6 @@ form input[type="submit"] {
 
 .footer-right-content > img {
   margin-left: 25px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 @media screen and (max-width: 576px) {
   body {
@@ -331,7 +327,7 @@ form input[type="submit"] {
     flex-direction: column;
   }
   .banner-right-cont img {
-    margin-right: 0px !important;
+    margin-right: 0px;
   }
   .banner-right-content {
     order: 1;
