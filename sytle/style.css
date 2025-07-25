@@ -80,7 +80,7 @@ ul li a {
   color: #e95a08;
 }
 .banner-title-describtion {
-  order: 1;
+  /* order: 1; */
   font-size: 1.3rem;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -326,6 +326,9 @@ form input[type="submit"] {
   .banner {
     flex-direction: column;
   }
+  .banner-right-cont img {
+    margin-right: 0px !important;
+  }
   .banner-right-content {
     order: 1;
   }
@@ -333,8 +336,12 @@ form input[type="submit"] {
     order: 2;
   }
   /* plants card  */
+  #break {
+    display: none;
+  }
 
-  .flower-plants-title {
+  .flower-plants-title,
+  .banner-title {
     font-size: 2rem;
     margin: 20px auto;
     padding: 0;
