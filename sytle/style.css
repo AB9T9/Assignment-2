@@ -333,6 +333,12 @@ form input[type="submit"] {
     order: 2;
   }
   /* plants card  */
+
+  .flower-plants-title {
+    font-size: 2rem;
+    margin: 20px auto;
+    padding: 0;
+  }
   .plants-card {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
@@ -351,12 +357,12 @@ form input[type="submit"] {
   /* user input section  */
   form input[type="email"] {
     width: 100%;
-    padding: 10px 20px;
+    padding: 20px 20px;
   }
   form input[type="submit"] {
     flex: 1;
     width: 100%;
-    padding: 10px 20px;
+    padding: 20px 20px;
   }
   /* latest deal responsive */
   .latest-deal {
